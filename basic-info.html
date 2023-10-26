@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Info - RajaRohan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-image: url('groot.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 200px 0;
+            animation: fadeInUp 1s;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #007acc;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed; /* Make the navigation bar fixed */
+            bottom: 0; /* Place it at the bottom */
+            width: 100%; /* Set the width to 100% */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0099cc;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 80px; /* Add margin to the section to prevent it from overlapping with the fixed navigation bar */
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Basic Info</h1>
+    </header>
+    <section>
+        <h1><p>CSE-AIML student with a passion for machine learning and AI. <br>
+            Seeking an entry-level position to learn and grow.<br> 
+            Proven ability to code in Python, C, and HTML&CSS. Strong analytical and problem-solving skills.</p></h1>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="basic-info.html">Basic Info</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="thank-you.html">Thank You</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - RajaRohan</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+
+        .contact-header {
+            background-image: url('groot.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 200px 0;
+            animation: fadeInUp 1s;
+            position: relative;
+        }
+
+        .contact-header h1 {
+            font-size: 36px;
+        }
+
+        /* Content Styles */
+        .content {
+            padding: 20px;
+        }
+
+        /* Navigation Styles */
+        .navigation {
+            background-color: #007acc;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navigation li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .navigation a:hover {
+            color: #0099cc;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="contact-header">
+        <h1>Contact</h1>
+    </header>
+    <div class="content">
+        <p>You can reach out to me at:</p>
+        <p>Email: rajarohanreddy529@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rajarohan-reddy/" rel="noopener noreferrer" target="_blank" class="button">LinkedIn</a></p>
+    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
